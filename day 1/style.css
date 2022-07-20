@@ -1,0 +1,46 @@
+body {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    font: "IBM Plex Sans", sans-serif;
+}
+
+.section{
+    background-color: #ffdab9;
+    padding: 2vw;
+    margin-top: 3vw;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3{
+    color: #af3b3b;
+}
+
+h5{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 30px;
+}
+p{
+    margin-top: 30px;
+}
+
+.choice{
+    background-color: #fbc4ab;
+    width: 30%;
+    color: #af3b3b;
+    padding: 20px;
+    margin-left: 10px;
+    flex-direction: row;
+}
+.row{
+    margin-top: 20px;
+}
+
+a{
+    color: #f8ad9d;
+}

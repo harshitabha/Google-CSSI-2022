@@ -1,0 +1,19 @@
+img {
+    max-width: 400px;
+}
+
+#btn4{
+    background-color: #0861c7;
+    color:white;
+}
+.button{
+    opacity: .7; 
+    border-radius: .8em;
+    transition: ease-in-out 0.2s; 
+    color: white;
+}
+#btn3{background-color: #fc7f03;}
+#btn2{background-color: #e3ba05;}
+#btn1{background-color: #0eb802;}
+.button:hover{opacity: .9; color: white;}
+.button:focus{color: white;}

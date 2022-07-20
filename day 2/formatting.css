@@ -1,0 +1,76 @@
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clusterNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonCluster {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardRow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    /* 
+        makes it so the card shifts to the next row when the screen size gets smaller
+        allows the cards to remain the same size
+     */
+    flex-wrap: wrap;
+
+}
+
+.clusterCard {
+    display: flex;
+    /* default flex direction is row --> flex-direction row doesn't need to be specified */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: grid;
+    /* columns need to add up to 5 */
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.complexGallery {
+    display: grid;
+    /* flex box has 5 colums that the templet needs to add up to */
+    grid-template-columns: repeat(5, 1fr);
+
+    grid-auto-flow: dense;
+}
+
+.wide {
+    grid-column: span 5;
+}
+
+.tall {
+    grid-row: span 2;
+}
+
+.huge {
+    grid-column: span 3;
+    grid-row: span 3;
+}

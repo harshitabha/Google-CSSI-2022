@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Flexbox Fun</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="formatting.css" />
+</head>
+
+<body>
+    <section>
+        <h1>Basic Nav</h1>
+        <div class="nav">
+            <div><a href="https://www.google.com/" target="_blank">Home</a></div>
+            <div><a href="https://chrome.google.com/webstore/category/extensions" target="_blank">Store</a></div>
+            <div><a href="https://about.google/" target="_blank">About Us</a></div>
+            <div><a href="https://contacts.google.com/" target="_blank">Contact</a></div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Clustered Nav</h1>
+        <div class="clusterNav">
+            <div>Company<br />Name</div>
+            <div class="buttonCluster">
+                <div><a href="./airbnb.html">AirBnb Copy</a></div>
+                <div>About Us</div>
+                <div>Contact</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Basic Card</h1>
+        <div class="card">
+            <h3>A Card</h3>
+            <p>
+                Scratch leg; meow for can opener to feed me eat and than sleep on your
+                face or sniff sniff. Chew iPad power cord meow meow you are my owner
+                so here is a dead rat yet sit on human or i will be pet i will be pet
+                and then i will hiss.
+            </p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section>
+        <h1 style="display: flex;"><img src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-2006.png" alt="Netflix logo" width="100"> Netflix Subscription Plans</h1>
+        <div class="cardRow">
+            <div class="clusterCard">
+                <div class="contentCluster">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <h3>$9.99</h3>
+                    </div>
+                    <ul>
+                        <li><strong>Number of Screens:</strong> 1</li>
+                        <li><strong>Number of devices for downloads: </strong> 1</li>
+                        <li>Unlimited movies, TV shows and mobiles games</li>
+                        <li>Watch on your laptop, TV, phone and tablet</li>
+                    </ul>
+                </div>
+                
+                <button><a href="https://help.netflix.com/en/node/24926" target="_blank">Learn More </a></button>
+            </div>
+            <div class="clusterCard">
+                <div class="contentCluster">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <h3>$15.49</h3>
+                    </div>
+                    <ul>
+                        <li><strong>Number of Screens:</strong> 2</li>
+                        <li><strong>Number of devices for downloads: </strong> 2</li>
+                        <li>Unlimited movies, TV shows and mobiles games</li>
+                        <li>Watch on your laptop, TV, phone and tablet</li>
+                        <li>HD Avalible</li>
+                    </ul>
+                </div>
+                
+                <button><a href="https://help.netflix.com/en/node/24926" target="_blank">Learn More </a></button>
+            </div>
+            <div class="clusterCard">
+                <div class="contentCluster">
+                    <div class="head">
+                        <h3>Premium</h3>
+                        <h3>$19.99</h3>
+                    </div>
+                    <ul>
+                        <li><strong>Number of Screens:</strong> 4</li>
+                        <li><strong>Number of devices for downloads: </strong> 4</li>
+                        <li>Unlimited movies, TV shows and mobiles games</li>
+                        <li>Watch on your laptop, TV, phone and tablet</li>
+                        <li>HD Avalible</li>
+                        <li>Ultra HD Avalible</li>
+                    </ul>
+                </div>
+                
+                <button><a href="https://help.netflix.com/en/node/24926" target="_blank">Learn More </a></button>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section>
+        <h1 id="birthstoneH">Birthstones by month</h1>
+        <div class="gallery">
+            <div style="background-color: #750800; color:white;">
+                <h3>January – Garnet</h3>
+            </div>
+            <div style="background-color: #9703ad; color: white;">
+                <h3>February – Amethyst</h3>
+            </div>
+            <div style="background-color: #7ac0cf; color: white;">
+                <h3>March – Aquamarine</h3>
+            </div>
+            <div style="background-color: #e3f8fc;">
+                <h3>April – Diamond</h3>
+            </div>
+            <div style="background-color: #0d752e; color: white;">
+                <h3>May – Emerald</h3>
+            </div>
+            <div style="background-color: #fff5d9;">
+                <h3>June – Pearl</h3>
+            </div>
+            <div style="background-color: #db0b0b; color: white;">
+                <h3>July – Ruby</h3>
+            </div>
+            <div style="background-color: #02d914; color: white;">
+                <h3>August – Peridot</h3>
+            </div>
+            <div style="background-color: #0b35db; color: white;">
+                <h3>September – Sapphire</h3>
+            </div>
+            <div style="background-image: linear-gradient(to right, #ffef78, #a1fff7);">
+                <h3>October – Opal</h3>
+            </div>
+            <div style="background-color: #fccb05; color: white;">
+                <h3>November – Topaz</h3>
+            </div>
+            <div style="background-color: #04d4d0; color: white;">
+                <h3>December – Turquoise</h3>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Complex Gallery</h1>
+        <div class="complexGallery">
+            <div>
+                <h3>Item1</h3>
+            </div>
+            <div>
+                <h3>Item2</h3>
+            </div>
+            <div class="wide">
+                <h3>Item3</h3>
+            </div>
+            <div>
+                <h3>Item4</h3>
+            </div>
+            <div class="tall">
+                <h3>Item5</h3>
+            </div>
+            <div>
+                <h3>Item6</h3>
+            </div>
+            <div class="huge">
+                <h3>Item7</h3>
+            </div>
+            <div>
+                <h3>Item8</h3>
+            </div>
+            <div>
+                <h3>Item9</h3>
+            </div>
+            <div>
+                <h3>Item10</h3>
+            </div>
+            <div>
+                <h3>Item11</h3>
+            </div>
+            <div>
+                <h3>Item12</h3>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
