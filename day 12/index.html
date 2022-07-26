@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GifMaker!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="hero is-small is-primary has-text-centered">
+    <div class="hero-body">
+      <p class="title">The Giggy Gif Finder!</p>
+      <p class="subtitle">Gifs from every corner of the world</p>
+      <img
+        src="https://cdn.glitch.com/89fb5b85-4c20-461c-abe1-c7f1bd17c13c%2FPoweredby_100px-White_VertText.png?v=1619531592690"
+        alt="Powered by Giphy" />
+    </div>
+  </section>
+  <div class="container">
+    <section class="section">
+      <h1 class="title">Gif Cook off</h1>
+      <h2 class="subtitle">
+        Go ahead and let us know what kind of gif you'd like us to cook up for
+        you!
+      </h2>
+      <input id="search" class="input is-primary is-large" type="text" placeholder="Enter a search term" />
+      <div class="mt-4">
+        <button id="submit" class="button is-large">Gif-it!</button>
+      </div>
+    </section>
+    <section class="section">
+      <h1 class="title">Results</h1>
+      <h2 class="subtitle">Your gifs will appear below:</h2>
+      <div id="imageholder">
+        <img src="https://c.tenor.com/X0lLW1hajSwAAAAM/chill-bro.gif"
+          alt="A dog wearing a wig" />
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer has-background-primary has-text-white">
+    <div class="content has-text-centered">
+      <p>
+        The Giffy Gif Finder is the way to find the best gifs possible
+      </p>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+
+</html>
