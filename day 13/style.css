@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+}
+
+#wrapper {
+    width: 400px;
+    margin: auto;
+}
+
+#nav {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: navy;
+    margin: -10px;
+}
+
+.topping {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: white;
+    font-size: 2em;
+    height: 150px;
+}
+#nav .topping{
+    height: fit-content;
+}
+
+.order {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order .topping {
+    /* margin: 10px; */
+    padding: 8px;
+}
+
+.bun {
+    /* background-color: goldenrod; */
+    background-image: url("https://o.remove.bg/downloads/97da288f-0f2b-40aa-add8-60a54f009c35/fresh-crispy-burger-bun-stock-vector-illustration-isolated-white-background-128855145-removebg-preview.png");
+    background-size: cover;
+    /* background-size: 220px; */
+    order: 1;
+}
+
+.bottom {
+    order: 7;
+}
+
+.patty {
+    background-color: chocolate;
+    order: 6;
+}
+
+.lettuce {
+    background-image: url("https://o.remove.bg/downloads/966e100e-5ac6-4acb-a3d6-8fd475353f9d/istockphoto-1153695290-170667a-removebg-preview.png");
+    background-size: cover;
+    order: 3;
+}
+
+.cheese {
+    background-color: gold;
+    order: 4;
+}
+
+.tomato {
+    /* background-color: firebrick; */
+    background-image: url("https://o.remove.bg/downloads/e9c9bc3e-1e3e-4afd-9745-8b3baaa9d5f2/download-removebg-preview.png");
+    background-size: cover;
+    order: 2;
+}
+.onion{
+    background-color: #88018f;
+    order: 5;
+}
+
+#checkout {
+    margin-top: 20px;
+}
+
+.button {
+    width: 150px;
+    margin: auto;
+
+    padding: 10px;
+    font-size: 1.8em;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 20px;
+    background-color: #000080;
+    color: white;
+    text-align: center;
+}
+.button:hover{
+    background-color: #010159;
+    cursor: pointer;
+}
+.tNav:hover {cursor: pointer;}
+
+#total {
+    font-weight: 200;
+    font-size: 24px;
+}
+

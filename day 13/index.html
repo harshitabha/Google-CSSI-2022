@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Burger Builder Project</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <link rel="icon" href="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/79220/burger-clipart-md.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="nav">
+        <div class="topping tNav" data-ingredient="tomato" data-price="0.30">
+            Tomato <br>$0.30
+        </div>
+
+        <div class="topping tNav" data-ingredient="lettuce" data-price="0.00">
+            Lettuce<br>$0.00
+        </div>
+
+        <div class="topping tNav" data-ingredient="cheese" data-price="0.75">
+            Cheese<br>$0.75
+        </div>
+
+        <div class="topping tNav" data-ingredient="patty" data-price="1.25">Patty<br>$1.25</div>
+
+        <div class="topping tNav" data-ingredient="onion" data-price="0.50">Onion<br>$0.50</div>
+    </div>
+
+    <div id="wrapper" >
+        <div class="order">
+            <div class="topping bun" data-ingredient="bun" data-price="0.00">
+                
+            </div>
+
+            <div class="topping tomato" data-ingredient="tomato" data-price="0.30">
+                
+            </div>
+
+            <div class="topping lettuce" data-ingredient="lettuce" data-price="0.00">
+                Lettuce
+            </div>
+
+            <div class="topping cheese" data-ingredient="cheese" data-price="0.75">
+                Cheese
+            </div>
+
+            <div class="topping onion" data-ingredient="onion" data-price="0.50">Onion</div>
+
+            <div class="topping patty" data-ingredient="patty" data-price="1.25">
+                Patty
+            </div>
+
+            <div class="topping bun bottom" data-ingredient="bun" data-price="0.00">
+                Bun
+            </div>
+        </div>
+
+        <div>
+            <div id="checkout">
+            <div class="button">Check out</div>
+        </div>
+    </div>
+
+    
+
+    <div id="total" style="margin-top: 1em; display: flex; justify-content: center;"></div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
