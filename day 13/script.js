@@ -11,7 +11,7 @@ toppings.forEach((topping) => {
         // includes the ingredient name and price
         let tData = topping.dataset;
 
-        orderDiv.innerHTML += `<div class="topping ${tData.ingredient}" data-ingredient="${tData.ingredient}" data-price="${tData.price}"> ${tData.ingredient[0].toUpperCase() + tData.ingredient.slice(1)} </div>`
+        orderDiv.innerHTML += `<div class="topping ${tData.ingredient}" data-ingredient="${tData.ingredient}" data-price="${tData.price}"> </div>`
 
     });
 });

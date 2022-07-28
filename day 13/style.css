@@ -40,40 +40,47 @@ body{
 
 .bun {
     /* background-color: goldenrod; */
-    background-image: url("https://o.remove.bg/downloads/97da288f-0f2b-40aa-add8-60a54f009c35/fresh-crispy-burger-bun-stock-vector-illustration-isolated-white-background-128855145-removebg-preview.png");
+    background-image: url("./img/top.png");
     background-size: cover;
     /* background-size: 220px; */
     order: 1;
 }
 
 .bottom {
+    background-image: url("./img/bottom_bun.png");
+    background-size: cover;
     order: 7;
 }
 
 .patty {
-    background-color: chocolate;
+    background-image: url("./img/patty.png");
+    background-size: cover;
     order: 6;
 }
 
 .lettuce {
-    background-image: url("https://o.remove.bg/downloads/966e100e-5ac6-4acb-a3d6-8fd475353f9d/istockphoto-1153695290-170667a-removebg-preview.png");
+    background-image: url("./img/lettucs.png");
     background-size: cover;
     order: 3;
 }
 
 .cheese {
-    background-color: gold;
+    background-image: url("./img/cheese.png");
+    background-size: cover;
+    /* background-color: gold; */
     order: 4;
 }
 
 .tomato {
     /* background-color: firebrick; */
-    background-image: url("https://o.remove.bg/downloads/e9c9bc3e-1e3e-4afd-9745-8b3baaa9d5f2/download-removebg-preview.png");
+    background-image: url("./img/tomato.png");
     background-size: cover;
     order: 2;
 }
 .onion{
-    background-color: #88018f;
+    /* background-color: #88018f; */
+    background-image: url("./img/onion.png");
+    background-size: cover;
     order: 5;
 }
 
